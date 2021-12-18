@@ -18,7 +18,16 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "chromatic": "chromatic --exit-zero-on-changes",
+    "status": "BUILD_ACCEPTED",
+    "webUrl": "https://www.chromatic.com/build?appId={appId}&number={buildNumber}",
+    "committerName": "Jack",
+    "number": 1,
+    "branch": "tech/refactor",
+    "storybookUrl": "https://{appId}-{hash}.chromatic.com/",
+    "changeCount": 0,
+    "componentCount": 42,
+    "specCount": 100
   },
   "eslintConfig": {
     "extends": [
